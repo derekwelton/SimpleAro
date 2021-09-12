@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31612.314
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F045799A-C5D7-46B0-9EF9-61E0037374E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "testing", "testing", "{3416B0EA-E3B5-452C-BA65-6982D28583CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{FE489D94-3A9C-47CC-8B22-7A067115D780}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DDA7BB26-2C34-498C-89D7-9CB859EFCD92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAro.Domain", "src\Core\SimpleAro.Domain\SimpleAro.Domain.csproj", "{0D8D7508-A105-46C8-8BAD-DA1041D318ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAro.Application", "src\Core\SimpleAro.Application\SimpleAro.Application.csproj", "{159896E0-2B92-44CA-A8A7-327313E22418}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleAro.Infrastructure", "src\Core\SimpleAro.Infrastructure\SimpleAro.Infrastructure.csproj", "{50C2E64F-C492-4CF3-B33F-7CFD5128A5C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "database", "database", "{23748813-DE3D-432A-83C0-8A003A3EEE4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleAro.Api", "src\Api\SimpleAro.Api\SimpleAro.Api.csproj", "{F24CEF3E-EC24-4E95-A513-734F0BC92941}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D8D7508-A105-46C8-8BAD-DA1041D318ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D8D7508-A105-46C8-8BAD-DA1041D318ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D8D7508-A105-46C8-8BAD-DA1041D318ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D8D7508-A105-46C8-8BAD-DA1041D318ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159896E0-2B92-44CA-A8A7-327313E22418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159896E0-2B92-44CA-A8A7-327313E22418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159896E0-2B92-44CA-A8A7-327313E22418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159896E0-2B92-44CA-A8A7-327313E22418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50C2E64F-C492-4CF3-B33F-7CFD5128A5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50C2E64F-C492-4CF3-B33F-7CFD5128A5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50C2E64F-C492-4CF3-B33F-7CFD5128A5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50C2E64F-C492-4CF3-B33F-7CFD5128A5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24CEF3E-EC24-4E95-A513-734F0BC92941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24CEF3E-EC24-4E95-A513-734F0BC92941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24CEF3E-EC24-4E95-A513-734F0BC92941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24CEF3E-EC24-4E95-A513-734F0BC92941}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE489D94-3A9C-47CC-8B22-7A067115D780} = {F045799A-C5D7-46B0-9EF9-61E0037374E3}
+		{DDA7BB26-2C34-498C-89D7-9CB859EFCD92} = {F045799A-C5D7-46B0-9EF9-61E0037374E3}
+		{0D8D7508-A105-46C8-8BAD-DA1041D318ED} = {DDA7BB26-2C34-498C-89D7-9CB859EFCD92}
+		{159896E0-2B92-44CA-A8A7-327313E22418} = {DDA7BB26-2C34-498C-89D7-9CB859EFCD92}
+		{50C2E64F-C492-4CF3-B33F-7CFD5128A5C8} = {DDA7BB26-2C34-498C-89D7-9CB859EFCD92}
+		{F24CEF3E-EC24-4E95-A513-734F0BC92941} = {FE489D94-3A9C-47CC-8B22-7A067115D780}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B497CD2-C779-4D46-A9BC-FFA2B0205873}
+	EndGlobalSection
+EndGlobal
